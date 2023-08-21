@@ -20,28 +20,43 @@ Has provided us with a sample of his overall customer data due to privacy issues
 
 Entity Relationship Diagram
 
-![image](https://github.com/ArmandoLazalde/Danny-s-Dinner/assets/99104425/5bfd40c4-6e3b-4d68-95d0-12b8cb01a6fa)
+![image](https://i0.wp.com/herdataproject.com/wp-content/uploads/2023/06/image.png?w=804&ssl=1)
 
 ## 📝 Requirements
 
 Each of the following case study questions can be answered using a single SQL statement:
 
-- What is the total amount each customer spent at the restaurant?
-- How many days has each customer visited the restaurant?
-- What was the first item from the menu purchased by each customer?
-- What is the most purchased item on the menu and how many times was it purchased by all customers?
-- Which item was the most popular for each customer?
-- Which item was purchased first by the customer after they became a member?
-- Which item was purchased just before the customer became a member?
-- What is the total items and amount spent for each member before they became a member?
-- If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
-- In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just
-  sushi - how many points do customer A and B have at the end of January?
+1. What is the total amount each customer spent at the restaurant?
+2. How many days has each customer visited the restaurant?
+3. What was the first item from the menu purchased by each customer?
+4. What is the most purchased item on the menu and how many times was it purchased by all customers?
+5. Which item was the most popular for each customer?
+6. Which item was purchased first by the customer after they became a member?
+7. Which item was purchased just before the customer became a member?
+8. What is the total items and amount spent for each member before they became a member?
+9. If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
+10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just
+    sushi - how many points do customer A and B have at the end of January?
+11. Create basic data tables that Danny and his team can use to quickly derive insights without needing to join the underlying tables using SQL.
+12. Danny also requires further information about the ranking of customer products, but he purposely does not need the ranking for non-member            purchases so he expects null ranking values for the records when customers are not yet part of the loyalty program.
 
-## 📝 Solution to some requirements with SQL queries
+## 💡 Sample solution to some requirements with SQL queries
 
+![image](https://github.com/ArmandoLazalde/Danny-s-Dinner/assets/99104425/cb433734-3b8d-4015-b3c1-358ab580c768)
 
+![image](https://github.com/ArmandoLazalde/Danny-s-Dinner/assets/99104425/7bc944db-c676-49a1-af05-e995f4d938f9)
 
+![image](https://github.com/ArmandoLazalde/Danny-s-Dinner/assets/99104425/5f6f8d2c-36fb-4d10-a947-4f6850ba61cd)
+
+## 📊 Results examples
+
+![image](https://github.com/ArmandoLazalde/Danny-s-Dinner/assets/99104425/68e2abf5-a2ed-46ea-8684-3bb32b4328b0)
+
+![image](https://github.com/ArmandoLazalde/Danny-s-Dinner/assets/99104425/b7177904-cac9-493b-a29d-46dcfd0ddfe6)
+
+![image](https://github.com/ArmandoLazalde/Danny-s-Dinner/assets/99104425/5dbfc8eb-9ee0-485d-8e9d-b51a7ba38b12)
+
+**This project is part of Danny Ma's [8WeekSQLChallenge](https://8weeksqlchallenge.com/case-study-1/), and was made possible through his guidance. Visit his website for more case studies and SQL for data analysis projects, [DataWithDanny](https://www.datawithdanny.com/)**
 
 
 
